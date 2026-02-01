@@ -1,22 +1,30 @@
-#Title
-Retail sales prediction
-#Absract
-This project enhances claim prediction by integrating ensemble learning and explainable 
-AI to predict the likelihood of insurance claims and detect potential fraud. By combining 
-policy holder demographics, financial data, and claim history, the system produces 
-interpretable results using SHAP and LIME, enabling insurers to make transparent, data
-driven decisions.
-#Main Objective 
-To design and implement a robust machine learning framework that accurately 
-predicts retail store sales, supports inventory planning, and provides interpretable insights for 
-decision-making.
-#TECH HACK
-Python (Anaconda/IDE)  
-Pandas, NumPy  
-Scikit-learn  
-XGBoost, LightGBM, CatBoost  
-Matplotlib, Seaborn  
-SHAP, LIME  
-Isolation Forest, One-Class SVM  
-Hardware: Laptop/PC
-#dataset will be added soon
+# Retail Store Sales Prediction
+
+## Abstract
+This project focuses on predicting retail store sales using machine learning techniques.
+Synthetic retail sales data was used to analyze sales patterns and forecast future sales.
+Models such as Linear Regression, Random Forest, and XGBoost were implemented and
+evaluated using MAE, RMSE, and R² metrics. XGBoost achieved the best performance,
+making it suitable for retail sales forecasting and decision support.
+
+## Main Objective
+To design and implement a machine learning model that accurately predicts retail store
+sales and supports inventory planning and business decision-making.
+
+## Technologies Used
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib
+
+## Project Structure
+data/        - Dataset files  
+notebooks/   - Model training notebooks  
+models/      - Saved models  
+images/      - Result plots  
+
+## Author
+B. Swarnamuhil  
+MCA Minor Project  
+Amrita Vishwa Vidyapeetham
